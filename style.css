@@ -19,6 +19,41 @@
     border: 1px solid black;
   }
   
+  header > ul > li {
+    display: inline-block;
+  }
+  
+  header > ul > li > a, .dropdown-content > a {
+      /*color: black;*/
+      /*text-decoration: none;*/
+      display: block;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  
+  .dropdown:hover > .dropdown-content {
+    display: block;
+  }
+    
+  
+  .dropdown > .dropdown-content {
+    position: absolute;
+  /*
+    left: 100%;
+    top: 0;
+    background-color: #ccc;
+    width: 200px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+  */
+    width: 200px;
+    display: none;
+  }
+  
+
   main{
     margin: 10px;
     
