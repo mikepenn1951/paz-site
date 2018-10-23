@@ -1,0 +1,70 @@
+/* Styles go here */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+    direction: rtl;
+      text-align: right;
+    font-family: 'Arial (Hebrew)', Arial;
+    padding-bottom: 38px;  
+  }
+  
+  header{
+    width: 100%;
+    height: 105px;
+    position: relative; 
+    border: 1px solid black;
+  }
+  
+  main{
+    margin: 10px;
+    
+  }
+  /*
+  div{
+    border: 1px solid black;
+    float: right;
+    width: 33.3%;
+  }
+  */
+  .col{
+    border: 1px solid black;
+    float: right;
+    width: 33.3%;
+  }
+  
+  .col-content{
+    margin: 10px;
+    
+  }
+  
+  .row{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0;
+  }
+  
+  /*
+  .col-container{
+    width: 100%;
+    border: 1px solid black;
+  }
+  */
+  .footer{
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+  }
+  
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
