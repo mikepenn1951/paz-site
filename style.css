@@ -19,12 +19,21 @@
     border: 1px solid black;
   }
   
-  header > ul > li {
+  header > div > ul > li {
     display: inline-block;
+
   }
-  
-  header > ul > li > a, .dropdown-content > a {
-      /*color: black;*/
+  /*
+  .ul-container{
+   }
+*/
+  ul{
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  header > div > ul > li > a, .dropdown-content > a {
+      color: rgb(85, 17, 17);
       /*text-decoration: none;*/
       display: block;
   }
