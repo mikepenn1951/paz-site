@@ -7,7 +7,7 @@
   body{
     margin: 0;
     direction: rtl;
-      text-align: right;
+    text-align: right;
     font-family: 'Arial (Hebrew)', Arial;
     padding-bottom: 38px;  
   }
@@ -19,6 +19,12 @@
     border: 1px solid black;
   }
   
+  #search{
+    position: absolute; 
+    top: 10px;
+    left: 380px;
+  }
+
   header > div > ul > li {
     display: inline-block;
 
@@ -64,7 +70,7 @@
   
 
   main{
-    margin: 10px;
+    margin: 30px 330px;
     
   }
   /*
@@ -81,7 +87,7 @@
   }
   
   .col-content{
-    margin: 10px;
+    margin: 0px;
     
   }
   
