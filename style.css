@@ -33,7 +33,7 @@
   .ul-container{
    }
 */
-  ul{
+  header > div > ul {
     padding-top: 60px;
     text-align: center;
   }
@@ -97,6 +97,24 @@
     margin: 0;
   }
   
+  .bot-pic{
+    margin: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .pic6-menu {
+    color: rgb(85, 17, 17);
+    /*text-decoration: none;*/
+    display: inline-block;
+    list-style: none;
+    float: right;
+  
+  }
+
+  #img-pic6{
+    padding-right: 100px;
+  }
   /*
   .col-container{
     width: 100%;
