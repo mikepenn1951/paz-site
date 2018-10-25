@@ -9,7 +9,8 @@
     direction: rtl;
     text-align: right;
     font-family: 'Arial (Hebrew)', Arial;
-    padding-bottom: 38px;  
+    padding-bottom: 38px; 
+    line-height: 1; 
   }
   
   header{
@@ -70,7 +71,7 @@
   
 
   main{
-    margin: 30px 330px;
+    margin: 30px 130px;
     
   }
   /*
@@ -126,6 +127,15 @@
     position: fixed;
     bottom: 0;
     width:100%;
+  }
+  
+  .footer > ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer > ul > li {
+    display: inline-block;
   }
   
   
