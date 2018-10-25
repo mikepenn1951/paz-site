@@ -21,6 +21,7 @@
   }
   
   .header-container{
+    position: relative; 
     width: 900px;
     margin: 0 auto;
   }
@@ -34,26 +35,36 @@
   #logo-img{
     display: block;
     position: absolute;
-/*    width: 142px;
+    width: 142px;
     height: 93px;
-    bottom: -20px;
-    right: -8px;*/
+    bottom: -30px;
+    right: -8px;
+  }
+  #house-img{
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 23px;
+    bottom: 0px;
+    right: 170px;
   }
 
+
+
   /*.ul-container > ul > li { */
-  header > div> div > ul > li {
+  header > div > div > ul > li {
     display: inline-block;
     position: absolute; 
-    top: 10px;
-    left: 380px;
+    top: 20px;
+    left: 40px;
 
   }
   /*
   .ul-container{
    }
-*/
-  header > div> div > ul {
-    padding-top: 60px;
+   */
+  header > div > div > ul {
+    padding-top: 40px;
     text-align: center;
   }
 
@@ -83,7 +94,7 @@
     width: 200px;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
   */
-    width: 200px;
+    width: 100px;
     display: none;
   }
   
