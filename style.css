@@ -120,6 +120,7 @@
     border: 1px solid black;
     float: right;
     width: 33.3%;
+    position: relative;
   }
   
   .col-content{
@@ -157,6 +158,41 @@
     border: 1px solid black;
   }
   */
+.text-on-pic{
+  /*border: 1px solid red; */
+  border-bottom-right-radius: 25px;
+  position: absolute;
+  bottom: 6px;
+  width:86%;
+  height: 100px;
+  overflow-wrap: break-word;
+  color: white;
+  background-color: rgba(120,120,120,0.8);
+  font-size: 80%;
+  padding: 5px;
+  margin: 5px;
+}
+
+h3{
+  margin:0;
+  padding:0;
+}
+
+#p-rd-text{
+  margin-bottom: 6px;
+}
+
+#a-rd-text{
+  /*display: block;
+  text-align: left;*/
+}
+
+#rd-more{
+  /*display: block;*/
+  text-align: left;
+
+}
+
   .footer{
     border: 1px solid black;
     position: fixed;
