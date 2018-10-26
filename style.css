@@ -178,7 +178,7 @@ h3{
   padding:0;
 }
 
-#p-rd-text{
+.colp-rd-text{
   margin-bottom: 6px;
 }
 
@@ -187,7 +187,7 @@ h3{
   text-align: left;*/
 }
 
-#rd-more{
+.rd-more{
   /*display: block;*/
   text-align: left;
 
