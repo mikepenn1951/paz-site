@@ -216,10 +216,13 @@ h3{
 }
 
   .footer{
+    background-color: rgb(155,155,155);
+    color: white;
     border: 1px solid black;
     position: fixed;
     bottom: 0;
     width:100%;
+    text-align: center;
   }
   
   .footer > ul {
@@ -229,8 +232,13 @@ h3{
   
   .footer > ul > li {
     display: inline-block;
+    color: white;
   }
-  
+
+  .footer > ul > li > a {
+    color: white;
+    font-size: 80%;
+  }
   
   .clearfix::after {
     content: "";
