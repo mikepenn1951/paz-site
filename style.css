@@ -114,6 +114,7 @@
     text-align: right;
     display: none;
     z-index: 2;
+    padding-right: 10px;
   }
   
   .menu-border{
