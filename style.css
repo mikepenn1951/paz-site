@@ -365,4 +365,34 @@ h3{
     float: right;
     width: 40%;
   }
+
+  h2.title{
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+  }
+
+  h3.subtitle{
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
   
+  h3.st1{
+    border-bottom: 1px solid #cbcbcb;
+  }
+  a.a-Col3{
+    font-size: 13px;
+    text-decoration: none;
+    color: blue;   
+  }
+
+  a.a-Col3:hover {
+    text-decoration-line: underline;
+    color: lightblue;   
+
+  }  
