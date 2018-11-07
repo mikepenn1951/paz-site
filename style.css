@@ -296,3 +296,34 @@ h3{
     text-align: right;
   }
 
+  .parallel-form {
+  
+    /*border: solid;*/
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(238,238,238);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+
+  .f-row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .f-row > label {
+    float: right;
+    width: 30%;
+  }
+  
+  .f-row {
+    margin: 10px;
+  }
+  
+  .f-row > input {
+    float: right;
+    width: 70%;
+  }
+  
