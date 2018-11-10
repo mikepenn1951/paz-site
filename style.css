@@ -140,7 +140,7 @@
   }
   */
   .col{
-    border: 1px solid yellow; 
+    /*border: 1px solid yellow; */
     float: right;
     width: 33.3%;
     position: relative;
@@ -237,6 +237,8 @@ h3{
 
 }
 
+
+
   .footer{
     background-color: rgb(155,155,155);
     color: white;
@@ -304,7 +306,10 @@ h3{
   #getInTouch2,span,label {
     font-size: 80%;
   }
+  span.read-more{
+    font-size: 100%;
 
+  }
 
   .parallel-form {
   
@@ -396,3 +401,7 @@ h3{
     color: lightblue;   
 
   }  
+
+  span.read-more:hover{
+    color: blue;   
+  }
